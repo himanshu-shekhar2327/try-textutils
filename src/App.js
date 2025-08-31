@@ -42,13 +42,6 @@ function App() {
   }
   return (
     <>
-        {/* <Navbar title = "Textutils2"/> */}
-
-        {/* <Navbar title = "Textutils" mode = {mode} toggleMode ={toggleMode}/>
-        <Alert alert ={alert}/>
-        <div className="container my-3">
-          <TextForm showAlert ={showAlert} heading = "Enter the text to analyze below" mode = {mode}/>
-              <About /> */}
     <Router>  
         <Navbar title = "Textutils" mode = {mode} toggleMode ={toggleMode}/>
         <Alert alert ={alert}/>

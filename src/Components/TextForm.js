@@ -46,13 +46,13 @@ const handleTextToSpeechClick = () => {
 
         const voices = window.speechSynthesis.getVoices();
         const selectedVoice = voices.find(
-            (v) => v.name === "Microsoft Heera - English (India)" || v.name.includes("heera")
+            (v) => v.name === "Microsoft Heera - English (India)" || v.name.includes("")
         );
 
         if (selectedVoice) {
             utterance.voice = selectedVoice;
         } else {
-            alert("Microsoft Heera voice not found. Using default voice.");
+            console.log("Microsoft Heera voice not found. Using default voice.");
         }
 
         window.speechSynthesis.speak(utterance);
@@ -93,13 +93,7 @@ const handleonChange =(event)=> {
         console.log("on change");
         setText(event.target.value)
 }
-const [text, setText] = useState('');  // This is my state variables // const [stateVariable, setStateFunction] = useState(initialValue);
-// text → This is your state variable (holds the actual text data).
-// setText → This is the function used to update the text value.
-// useState('') → Initializes text with an empty string.
-
-    // text = "new text"   // wrong way to change the text variable or state
-    // settext = ("new text")   // correct way to change the text variable or state
+const [text, setText] = useState('');  
   return (
     <>
     <div className = "container " style = {{color : props.mode==='dark' ? 'White' : '#042743'}}>
