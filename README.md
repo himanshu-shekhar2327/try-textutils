@@ -26,21 +26,13 @@ A React-based text utility app that helps you analyze and modify your text with 
 
 ---
 
-## 📸 Screenshots  
-
-
-| ![Screenshots](screenshot.png) |
- 
-
----
-
 ## ⚡ Getting Started  
 
 Follow these steps to run the project locally:  
 
 1. Clone the Repository  
 ```bash
-git clone https://github.com/your-username/textutils.git
+git clone https://github.com/himanshu-shekhar2327/try-textutils
 ```
  
 2️⃣ Move into the Project Folder
