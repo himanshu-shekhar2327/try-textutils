@@ -29,9 +29,8 @@ A React-based text utility app that helps you analyze and modify your text with 
 ## 📸 Screenshots  
 
 
-| ![Screenshots](https://via.placeholder.com/400x200.png?text=Light+Mode) |
-
-*(Replace the placeholders with actual screenshots from your app.)*  
+| ![Screenshots](screenshot.png) |
+ 
 
 ---
 
